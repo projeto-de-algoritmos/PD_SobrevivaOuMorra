@@ -1,5 +1,5 @@
 <template>
-    <div class="main"> 
+    <div class="main">
         <h1>
             FIRE IN THE HOUSE!
         </h1>
@@ -51,8 +51,8 @@ export default {
                 this.$router.push('/Result');
             }else{
                 this.showText = false;
-                this.showLista = true;  
-            }            
+                this.showLista = true;
+            }
         },
         showItem(item) {
             if (!this.selectedItems.includes(item)) {
@@ -64,69 +64,4 @@ export default {
 }
 </script>
 
-<style>
-
-.main {
-    background-image: url(../assets/casaChamas.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;  
-    height: 100%;
-
-
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-h1{
-    font-size:50px;    
-    color: white;
-}
-
-.text{
-    margin-top:10%;
-    margin-Bottom:3%;
-    text-align:center;
-    font-size: 40px;
-    background-color:aquamarine;
-    height: 20%;
-    width: 50%;
-    border-radius: 40px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.lista{
-    margin-top:3%;
-    margin-Bottom:3%;
-    text-align:center;
-    font-size: 30px;
-    background-color:aquamarine;
-    height: 25%;
-    width: 50%;
-    border-radius: 40px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.selecionados{
-    margin-top:3%;
-    margin-Bottom:3%;
-    text-align:center;
-    font-size: 30px;
-    background-color:greenyellow;
-    height: 25%;
-    width: 50%;
-    border-radius: 40px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-}
-</style>
+<style src ="../css/FireHouse.css"></style>
