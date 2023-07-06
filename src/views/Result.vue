@@ -4,6 +4,9 @@
       <div>
         {{ statusMessage }}
       </div>
+      <ul>
+        <li v-for="item in selectedItems" :key="item">{{ item.nome }}</li>
+      </ul>
     </div>
   </template>
 
