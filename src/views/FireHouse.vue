@@ -10,17 +10,15 @@
 
         <div class="lista" v-show="showLista">
             <ul>
-                <li @click="showItem('bicicleta')">bicicleta</li>
-                <li @click="showItem('lapiz')">lapiz</li>
-                <li @click="showItem('ps5')">ps5</li>
-                <li @click="showItem('livro')">livro</li>
+                <li v-for="item in itens" :key="item" @click="showItem(item)">{{ item.nome }}</li>
             </ul>
         </div>
+
 
         <div class="selecionados" v-show="yesLista">
             <h3> Selecionados </h3>
             <ul>
-                <li v-for="item in selectedItems" :key="item">{{ item }}</li>
+                <li v-for="item in selectedItems" :key="item">{{ item.nome }}</li>
             </ul>
         </div>
 
@@ -31,6 +29,7 @@
 
 <script>
 import Button from "./../components/Button"
+import itensJson from '../../db/db.json';
 
 export default {
     name: 'FireHouse',
@@ -42,8 +41,12 @@ export default {
             showText:true,
             showLista:false,
             yesLista: false,
+            itens: [],
             selectedItems: [],
         }
+    },
+    mounted() {
+    this.itens = itensJson.objetos_quarto;
     },
     methods:{
         hideText(){
@@ -58,6 +61,7 @@ export default {
             if (!this.selectedItems.includes(item)) {
                 this.yesLista = true;
                 this.selectedItems.push(item);
+                localStorage.setItem('selectedItems', JSON.stringify(this.selectedItems));
             }
         },
     }

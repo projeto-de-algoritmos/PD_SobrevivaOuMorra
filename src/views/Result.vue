@@ -1,14 +1,32 @@
 <template>
-    <h1>RESULT!</h1>
     <div>
-        Morreu? Viveu?
+      <h1>RESULT!</h1>
+      <div>
+        {{ statusMessage }}
+      </div>
     </div>
-</template>
+  </template>
 
-<script>
+  <script>
+  import { knapsack } from '../utils/PDknapsack';
 
-export default{
+  export default {
     name: 'Result',
-}
-
-</script>
+    data() {
+      return {
+        selectedItems: []
+      };
+    },
+    mounted() {
+      const storedItems = localStorage.getItem('selectedItems');
+      if (storedItems) {
+        this.selectedItems = JSON.parse(storedItems);
+        const size = 20;
+        const result = knapsack(this.selectedItems, size);
+        const msg = (result.objetosSelecionados.length === this.selectedItems.length)
+            ? this.statusMessage = 'Viveu!!!'
+            : this.statusMessage = 'Morreu!!!';
+      }
+    }
+  };
+  </script>
