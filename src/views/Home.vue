@@ -1,6 +1,6 @@
 <template class="templat">
   <div class="home">
-    <Button class="button" @click="$router.push('/cenarios')">SOBREVIVA!</Button>
+    <Button class="button" :buttonName="nomeBotao" @click="$router.push('/cenarios')" />
   </div>
 </template>
 
@@ -12,9 +12,14 @@ export default{
   name:"home",
   components:{
     Button,
+  },
+  data(){
+    return{
+      nomeBotao: "SOBREVIVA!"
+    }
   }
 }
 
 </script>
 
-<style src="../css/Home.css"></style>
+<style src= "../css/Home.css"></style>

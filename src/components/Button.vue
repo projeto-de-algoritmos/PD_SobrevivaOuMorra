@@ -1,16 +1,22 @@
 <template>
-    <button class="custom-button"> SOBREVIVA! </button>
+    <button class="custom-button"> {{ buttonName }} </button>
 </template>
 
 <script>
 export default {
-    name: "Button"
+    name: "Button",
+    props: {
+      buttonName:{
+        type: String,
+        required: true,
+      },
+    },
 }
 </script>
 
 <style scoped>
 .custom-button {
-  background: linear-gradient(to right, #ff7f00, #00bfff);
+  background: linear-gradient(to right, red, blue);
   color: white;
   padding: 12px 24px;
   border-width: 5px;

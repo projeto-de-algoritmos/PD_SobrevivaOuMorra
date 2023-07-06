@@ -4,8 +4,9 @@
             FIRE IN THE HOUSE!
         </h1>
         <div class="text" v-show="showText">
-            Sua casa está pegando fogo! <Br/>
-            Quais items vai salvar?
+            Imagine que você está em uma casa em chamas e tem apenas alguns minutos para pegar itens importantes antes de escapar. <br/>
+            Você precisa tomar decisões rápidas para garantir sua sobrevivência. <br/> 
+            Quais itens da sua casa você escolheria salvar?
         </div>
 
         <div class="lista" v-show="showLista">
@@ -14,7 +15,6 @@
             </ul>
         </div>
 
-
         <div class="selecionados" v-show="yesLista">
             <h3> Selecionados </h3>
             <ul>
@@ -22,7 +22,7 @@
             </ul>
         </div>
 
-        <Button @click="hideText"/>
+        <Button @click="hideText" :buttonName="nomeBotao"/>
 
     </div>
 </template>
@@ -43,6 +43,7 @@ export default {
             yesLista: false,
             itens: [],
             selectedItems: [],
+            nomeBotao: " continuar "
         }
     },
     mounted() {
