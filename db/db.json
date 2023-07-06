@@ -1,35 +1,14 @@
 {
-    "objetos_quarto": [
-      "Cama",
-      "Travesseiros",
-      "Colchão",
-      "Lençóis",
-      "Cobertor",
-      "Criado-mudo",
-      "Abajur",
-      "Armário",
-      "Gavetas",
-      "Cômoda",
-      "Espelho",
-      "Tapete",
-      "Cortinas",
-      "Estante",
-      "Livros",
-      "Mesa de trabalho",
-      "Cadeira",
-      "Luminária de mesa",
-      "Televisão",
-      "Controle remoto",
-      "Ar-condicionado",
-      "Ventilador",
-      "Roupas",
-      "Sapatos",
-      "Cabideiro",
-      "Quadros",
-      "Relógio de parede",
-      "Escrivaninha",
-      "Papelaria (canetas, lápis, bloco de notas)",
-      "Carregador de celular"
-    ]
+  "objetos_quarto": [
+    { "nome": "Cama", "peso": 10 },
+    { "nome": "Travesseiros", "peso": 1 },
+    { "nome": "Colchão", "peso": 15 },
+    { "nome": "Lençóis", "peso": 2 },
+    { "nome": "Cobertor", "peso": 5 },
+    { "nome": "Ventilador", "peso": 3 },
+    { "nome": "Roupas", "peso": 8 },
+    { "nome": "Sapatos", "peso": 4 },
+    { "nome": "Cabideiro", "peso": 6 },
+    { "nome": "Quadros", "peso": 7 }
+  ]
 }
-  
