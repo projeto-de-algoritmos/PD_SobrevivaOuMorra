@@ -16,9 +16,10 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Scenarios.vue')
   },
   {
-    path: '/houseFire',
+    path: '/houseFire/:propName',
     name: 'HouseFire',
-    component: () => import(/* webpackChunkName: "about" */ '../views/FireHouse.vue')
+    props: true,
+    component: () => import(/* webpackChunkName: "about" */ '../views/Choose.vue')
   },
   {
     path: '/result',
