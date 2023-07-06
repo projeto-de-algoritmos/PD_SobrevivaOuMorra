@@ -1,24 +1,70 @@
+h1 {
+  color: white;
+  display:flex;
+  background-color: red;
+  justify-content: center;
+  font-size: 50px;
+}
 
-h1{
-    top: 10%;
-    left: 50%;
-    font-size:50px;
-  }
+Button {
+  display:flex;
+  margin-top: 2%;
+  margin-left: 43%;
+  font-family: 'Franklin Gothic Medium';
 
-.scenario{
-    background-color: gold;
-    background-image: url(../assets/escolhas.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%
-  }
+}
 
-.casa{
-    margin: 5%;
-    background-image: url(../assets/casaFogo.png);
-    background-size: cover;
-    background-repeat: no-repeat;  width: 20%;
-    height: 20%;
-    border-radius: 40px;
-  }
+span{
+  font-size: 30px;
+  background-color: red;
+  margin-top:2%;
+  border-radius: 20%;
+}
+
+.scenario {
+  background-image: url(../assets/escolhas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  margin-top:-34px
+}
+
+.scenario-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 11%;
+}
+
+.scenario-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 2%;
+}
+
+.icon {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.casa {
+  background-image: url(../assets/casaFogo.png);
+}
+
+.fimMundo {
+  background-image: url(../assets/fimMundo.png);
+}
+
+.apocalipseZumbi {
+  background-image: url(../assets/apocalipseZumbi.png);
+}
+
+.desastreNatural {
+  background-image: url(../assets/desastreNatural.png);
+}

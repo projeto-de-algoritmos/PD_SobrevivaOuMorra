@@ -1,6 +1,6 @@
 
 .main {
-    background-image: url(../assets/casaChamas.png);
+    background-image: url(../assets/casaFogo.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -14,17 +14,19 @@
 }
 
 h1{
+    background-color: red;
+    border-radius: 10%;
     font-size:50px;
     color: white;
 }
 
 .text{
-    margin-top:10%;
+    margin-top:2%;
     margin-Bottom:3%;
     text-align:center;
-    font-size: 40px;
+    font-size: 30px;
     background-color:aquamarine;
-    height: 20%;
+    height: 40%;
     width: 50%;
     border-radius: 40px;
     display:flex;
