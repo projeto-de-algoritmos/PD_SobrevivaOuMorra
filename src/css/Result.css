@@ -1,0 +1,62 @@
+
+.main{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+  
+  
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title{
+    background-color: greenyellow;
+    border-radius: 40px;
+    border-radius: 10%;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    animation: glowingEffect 2s ease-in-out infinite alternate;
+    margin-bottom: 0%;
+  }
+  
+  @keyframes glowingEffect {
+    0% {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    50% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 40px rgba(255, 255, 255, 0.5), 0 0 60px rgba(255, 255, 255, 0.3);
+    }
+    100% {
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  .loseMessage, .winMessage {
+    margin: 2% 0 3%;
+    text-align: center;
+    font-size: 30px;
+    height: 40%;
+    width: 50%;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .loseMessage {
+    background-color: gray;
+    border: 7px solid white;
+  }
+  
+  .winMessage {
+    background-color: greenyellow;
+    border: 7px solid yellow;
+  }
+  
