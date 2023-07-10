@@ -1,50 +1,50 @@
 {
   "objetos_quarto": [
-    { "nome": "Cama", "peso": 10 },
-    { "nome": "Travesseiros", "peso": 1 },
-    { "nome": "Colchão", "peso": 15 },
-    { "nome": "Lençóis", "peso": 2 },
-    { "nome": "Cobertor", "peso": 5 },
-    { "nome": "Ventilador", "peso": 3 },
-    { "nome": "Roupas", "peso": 8 },
-    { "nome": "Sapatos", "peso": 4 },
-    { "nome": "Toalha", "peso": 1 },
-    { "nome": "Quadros", "peso": 7 }
+    { "nome": "Foto do(a) EX", "peso": 10 },
+    { "nome": "Caderno com previsão do futuro", "peso": 29 },
+    { "nome": "Computador", "peso": 15 },
+    { "nome": "PS5", "peso": 2 },
+    { "nome": "TV", "peso": 5 },
+    { "nome": "Album de fotos da sua familia", "peso": 3 },
+    { "nome": "Toalha", "peso": 8 },
+    { "nome": "Celular antigo", "peso": 4 },
+    { "nome": "Livro de Calculo 1", "peso": 1 },
+    { "nome": "Foto do(a) atual", "peso": 7 }
   ],
   "objetos_fim_do_mundo": [
-    { "nome": "AK com 2 balas", "peso": 20 },
-    { "nome": "SPAM", "peso": 1 },
-    { "nome": "Foto da ex", "peso": 15 },
+    { "nome": "Pistola", "peso": 20 },
+    { "nome": "Uma lata de SPAM", "peso": 1 },
+    { "nome": "Foto do(a) EX", "peso": 15 },
     { "nome": "Toalha", "peso": 1 },
     { "nome": "Faca", "peso": 2 },
     { "nome": "Cantil", "peso": 10 },
     { "nome": "Protetor Solar", "peso": 8 },
     { "nome": "Chuck Norris", "peso": 40 },
-    { "nome": "Munição infinta para AK", "peso": 6 },
-    { "nome": "Sua comida Favorita", "peso": 7 }
+    { "nome": "12", "peso": 6 },
+    { "nome": "Cutelo", "peso": 7 }
   ],
   "objetos_zombi": [
-    { "nome": "AK", "peso": 20 },
-    { "nome": "Veneno para rato", "peso": 1 },
+    { "nome": "Pistola", "peso": 20 },
+    { "nome": "Um pacote de veneno para rato", "peso": 1 },
     { "nome": "Espada Samurai", "peso": 15 },
     { "nome": "Toalha", "peso": 1 },
     { "nome": "Faca", "peso": 2 },
     { "nome": "Cantil", "peso": 10 },
     { "nome": "Protetor Solar", "peso": 8 },
     { "nome": "Celular", "peso": 40 },
-    { "nome": "Munição infinta para AK", "peso": 6 },
-    { "nome": "Sua comida Favorita", "peso": 7 }
+    { "nome": "Cutelo", "peso": 6 },
+    { "nome": "Papel de seda", "peso": 7 }
   ],
   "objetos_natual": [
-    { "nome": "AK com 2 balas", "peso": 20 },
-    { "nome": "SPAM", "peso": 1 },
-    { "nome": "Foto da ex", "peso": 15 },
+    { "nome": "Pistola", "peso": 20 },
+    { "nome": "Uma lata de feijão em latado", "peso": 1 },
+    { "nome": "Foto a familia", "peso": 15 },
     { "nome": "Toalha", "peso": 1 },
     { "nome": "Faca", "peso": 2 },
     { "nome": "Cantil", "peso": 10 },
     { "nome": "Protetor Solar", "peso": 8 },
-    { "nome": "Chuck o boneco assaino", "peso": 40 },
-    { "nome": "Munição infinta para AK", "peso": 6 },
-    { "nome": "Sua comida Favorita", "peso": 7 }
+    { "nome": "Ipad", "peso": 40 },
+    { "nome": "Livro de Fisica 1", "peso": 6 },
+    { "nome": "Fone de ouvido", "peso": 7 }
   ]
 }
