@@ -1,19 +1,29 @@
-# pd_ainda_sem_ideia
+# PD_SOBREVIVA!
 
-## Project setup
-```
-npm install
-```
+**Número da Lista**: 30 <br>
+**Conteúdo da Disciplina**: Programação Dinâmica <br>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Alunos
+|Matrícula | Aluno |
+| -- | -- |
+| 20/2028211  |  Antônio Aldísio de Sousa Alves Ferreira Filho |
+| 19/0048221  |  Rodrigo Balbino Azevedo de Brito |
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Sobre
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Este projeto é uma aplicação web desenvolvida usando Vue.js onde o usuário é colocado em diferentes cenários e precisa escolher um conjunto de itens para sobreviver, dessa forma o algoritmo knapsack define a sobrevivência do usuário de acordo com a quantidade de itens.
+
+## Screenshots
+
+WORK IN PROGRESS
+
+## Instalação
+**Linguagem**: Javascript <br>
+**Framework**: Vue.js <br>
+
+## Uso
+
+Para a execução do projeto, vá até sua raíz e use o comando:
+```
+$   make run
+```
