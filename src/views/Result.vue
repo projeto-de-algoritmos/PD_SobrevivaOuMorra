@@ -59,7 +59,7 @@
           return 'VOCÊ FRACASSOU!';
         } else {
             return 'VOCÊ CONSEGUIU!';
-        } 
+        }
       },
     },
     mounted() {

@@ -26,7 +26,6 @@
             <Button @click="hideText" :buttonName="buttonContinue"/>
             <Button @click="$router.push('/cenarios')" :buttonName="buttonVoltar"/>
         </div>
-        
     </div>
 </template>
 
@@ -66,7 +65,7 @@ export default {
                     return 'NaturalDisaster';
                 default:
                     return '';
-            }      
+            }
         },
         getComponentTitle(){
             switch(this.propName){
@@ -80,7 +79,7 @@ export default {
                     return 'NATURAL DISASTER!';
                 default:
                     return '';
-            }  
+            }
         },
         backgroundStyle() {
             switch (this.propName) {
@@ -96,6 +95,9 @@ export default {
                 return {};
             }
         },
+        currentUrl() {
+            return this.$route.path;
+        },
     },
     data(){
         return{
@@ -109,7 +111,18 @@ export default {
         }
     },
     mounted() {
-    this.itens = itensJson.objetos_quarto;
+    if(this.currentUrl === '/houseFire/FireInTheHouse'){
+        this.itens = itensJson.objetos_quarto;
+        }
+    if(this.currentUrl === '/houseFire/EndOfTheWorld'){
+        this.itens = itensJson.objetos_fim_do_mundo;
+        }
+    if(this.currentUrl === '/houseFire/ZombiApocalipse'){
+        this.itens = itensJson.objetos_zombi;
+        }
+    if(this.currentUrl === '/houseFire/NaturalDisaster'){
+        this.itens = itensJson.objetos_natual;
+        }
     },
     methods:{
         hideText(){

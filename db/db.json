@@ -8,7 +8,43 @@
     { "nome": "Ventilador", "peso": 3 },
     { "nome": "Roupas", "peso": 8 },
     { "nome": "Sapatos", "peso": 4 },
-    { "nome": "Cabideiro", "peso": 6 },
+    { "nome": "Toalha", "peso": 1 },
     { "nome": "Quadros", "peso": 7 }
+  ],
+  "objetos_fim_do_mundo": [
+    { "nome": "AK com 2 balas", "peso": 20 },
+    { "nome": "SPAM", "peso": 1 },
+    { "nome": "Foto da ex", "peso": 15 },
+    { "nome": "Toalha", "peso": 1 },
+    { "nome": "Faca", "peso": 2 },
+    { "nome": "Cantil", "peso": 10 },
+    { "nome": "Protetor Solar", "peso": 8 },
+    { "nome": "Chuck Norris", "peso": 40 },
+    { "nome": "Munição infinta para AK", "peso": 6 },
+    { "nome": "Sua comida Favorita", "peso": 7 }
+  ],
+  "objetos_zombi": [
+    { "nome": "AK", "peso": 20 },
+    { "nome": "Veneno para rato", "peso": 1 },
+    { "nome": "Espada Samurai", "peso": 15 },
+    { "nome": "Toalha", "peso": 1 },
+    { "nome": "Faca", "peso": 2 },
+    { "nome": "Cantil", "peso": 10 },
+    { "nome": "Protetor Solar", "peso": 8 },
+    { "nome": "Celular", "peso": 40 },
+    { "nome": "Munição infinta para AK", "peso": 6 },
+    { "nome": "Sua comida Favorita", "peso": 7 }
+  ],
+  "objetos_natual": [
+    { "nome": "AK com 2 balas", "peso": 20 },
+    { "nome": "SPAM", "peso": 1 },
+    { "nome": "Foto da ex", "peso": 15 },
+    { "nome": "Toalha", "peso": 1 },
+    { "nome": "Faca", "peso": 2 },
+    { "nome": "Cantil", "peso": 10 },
+    { "nome": "Protetor Solar", "peso": 8 },
+    { "nome": "Chuck o boneco assaino", "peso": 40 },
+    { "nome": "Munição infinta para AK", "peso": 6 },
+    { "nome": "Sua comida Favorita", "peso": 7 }
   ]
 }
