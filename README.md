@@ -29,10 +29,11 @@ Este projeto é uma aplicação web desenvolvida usando Vue.js onde o usuário �
 
 ## Uso
 
+Recomendamos usar node igual o superior ao 14.
 Para instalar os pacotes necesario, vá até sua raíz e use o comando:
 
 ```
-$ make install
+$ npm install && npm install json-server
 ```
 
 Para a execução do projeto, vá até sua raíz e use o comando:
