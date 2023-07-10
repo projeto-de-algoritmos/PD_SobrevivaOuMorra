@@ -15,7 +15,7 @@ export default{
   },
   data(){
     return{
-      nomeBotao: "SOBREVIVA!"
+      nomeBotao: "SOBREVIVA ou MORRA !!!"
     }
   }
 }
