@@ -1,4 +1,4 @@
-# PD_SOBREVIVA!
+# PD_SobrevivaOuMorra!
 
 **Número da Lista**: 30 <br>
 **Conteúdo da Disciplina**: Programação Dinâmica <br>
